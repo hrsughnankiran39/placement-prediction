@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styleout.css') }}">
+    <title>Placement Prediction</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="intro">
+            <!-- <h1><b>Welcome to my Placement Prediction App</b></h1> -->
+        </div>
+        <div class="ans">
+            <h2><b>Prediction</b></h2>
+        </div>
+        <div class="out">
+            <p><b>{{ output }}</b></p>
+        </div>
+
+        <div class="end">
+            <h2><b>Your result prediction was done using the Support Vector Machine Algorithm</b></h2>
+        </div>
+    </div>
+</body>
+
+</html>
